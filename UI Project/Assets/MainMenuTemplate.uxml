@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="Style.uss" />
+    <ui:VisualElement name="BackGround" style="justify-content: center; align-items: center; height: auto; width: auto; flex-grow: 1;">
+        <ui:VisualElement style="height: 284px; width: 216px; background-color: rgb(255, 255, 255); align-items: center; justify-content: center; position: relative; top: auto; left: auto; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
+            <ui:Label text="Main Menu" display-tooltip-when-elided="true" name="Label" class="label-text" />
+            <ui:Button text="Start game" display-tooltip-when-elided="true" name="start-button" class="button-style" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" name="message-button" class="button-style" style="justify-content: center; align-items: auto;" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="message-text" focusable="false" style="display: none; align-items: stretch; justify-content: center; visibility: visible; -unity-text-align: upper-center; position: absolute; top: 208px; left: 54px; width: 103px;" />
+        </ui:VisualElement>
+        <ui:Label text="Label" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>
